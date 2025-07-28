@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className='app'>
-      <h1>Desafio CSS</h1>
+      <h1>Lista de carros</h1>
       <div className='style_list'>
       {cars.map((car) => (
           <CarDetails 
